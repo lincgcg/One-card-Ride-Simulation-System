@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IdentityWindow</class>
+ <widget class="QMainWindow" name="IdentityWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>401</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="id_teacher_button">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>36</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>教师</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="id_student_button">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>36</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>学生</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="id_teacher_family_button">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>36</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>教师家属</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="id_label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>321</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Medium</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>身份认证</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
